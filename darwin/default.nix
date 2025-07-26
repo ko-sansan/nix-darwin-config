@@ -22,6 +22,7 @@
       "font-hack-nerd-font"
       "orbstack"
       "ghostty"
+      "discord"
     ];
 
     onActivation = {
