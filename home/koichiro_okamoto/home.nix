@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
-{
-  home.packages = with pkgs; [
+let
+  basePackages = with pkgs; [
     git
     ripgrep
     fd
@@ -18,6 +18,18 @@
     lazygit
     lazydocker
   ];
+
+  goPackages = with pkgs; [
+    go
+    gopls
+    go-tools
+    goreleaser
+  ];
+
+  allPackages = basePackages ++ goPackages;
+in
+{
+  home.packages = allPackages;
 
   programs.git = {
     enable = true;
@@ -75,6 +87,15 @@
       keymap_mode = "vim-insert";
     };
   };
+
+  home.sessionVariables = {
+    GOPATH     = "${config.home.homeDirectory}/.go";
+    GOMODCACHE = "${config.xdg.cacheHome}/go-mod";
+    GOBIN      = "${config.home.homeDirectory}/.local/bin";  # go install で PATH に通るように
+  };
+  home.sessionPath = [
+    "${config.home.homeDirectory}/.local/bin"
+  ];
 
   home.stateVersion = "24.05";
 }

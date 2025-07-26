@@ -18,7 +18,7 @@
       "rectangle"
       "chatgpt"
       "obsidian"
-      "1password@7"
+      "1password"
       "font-hack-nerd-font"
       "orbstack"
       "ghostty"
