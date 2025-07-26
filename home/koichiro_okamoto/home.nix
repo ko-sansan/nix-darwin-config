@@ -26,7 +26,14 @@ let
     goreleaser
   ];
 
-  allPackages = basePackages ++ goPackages;
+  nodePackages = with pkgs; [
+    nodejs_24
+    codex
+    pnpm
+    bun
+  ];
+
+  allPackages = basePackages ++ goPackages ++ nodePackages;
 in
 {
   home.packages = allPackages;
