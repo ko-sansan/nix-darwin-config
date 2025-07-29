@@ -3,10 +3,10 @@
 {
   system.stateVersion = 6;
 
-  system.primaryUser = "koichiro_okamoto";
+  system.primaryUser = "koichiro.okamoto";
 
   # ホスト名
-  networking.hostName = "koichiro-mac";
+  networking.hostName = "koichiro-mac-work";
 
   # brew cask 管理
   homebrew = {
@@ -33,8 +33,8 @@
 
   programs.zsh.enable = true;
 
-  users.users.koichiro_okamoto = {
-    home = "/Users/koichiro_okamoto";
+  users.users."koichiro.okamoto" = {
+    home = "/Users/koichiro.okamoto";
   };
 }
 
