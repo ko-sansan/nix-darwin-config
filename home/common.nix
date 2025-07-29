@@ -106,7 +106,10 @@ in
     "${config.home.homeDirectory}/.local/bin"
   ];
 
-  xdg.configFile."nvim".source = nvimConfigDir;
+  xdg.configFile."nvim/lua/plugins/lsp.lua".source = "${nvimConfigDir}/lua/plugins/lsp.lua";
+  xdg.configFile."nvim/lua/plugins/neotest.lua".source = "${nvimConfigDir}/lua/plugins/neotest.lua";
+  xdg.configFile."nvim/lua/plugins/gitlinker.lua".source = "${nvimConfigDir}/lua/plugins/gitlinker.lua";
+  xdg.configFile."nvim/lua/config/options.lua".source = "${nvimConfigDir}/lua/config/options.lua";
 
   home.stateVersion = "25.05";
 }
