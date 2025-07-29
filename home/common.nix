@@ -35,7 +35,7 @@ let
 
   allPackages = basePackages ++ goPackages ++ nodePackages;
 
-  nvimConfigDir = ./nvim;
+  nvimConfigDir = ../nvim;
 in
 {
   home.packages = allPackages;
