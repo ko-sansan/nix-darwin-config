@@ -34,6 +34,8 @@ let
   ];
 
   allPackages = basePackages ++ goPackages ++ nodePackages;
+
+  nvimConfigDir = ./nvim;
 in
 {
   home.packages = allPackages;
@@ -103,6 +105,8 @@ in
   home.sessionPath = [
     "${config.home.homeDirectory}/.local/bin"
   ];
+
+  xdg.configFile."nvim".source = nvimConfigDir;
 
   home.stateVersion = "25.05";
 }
