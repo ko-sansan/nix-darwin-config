@@ -23,6 +23,7 @@
       "orbstack"
       "ghostty"
       "discord"
+      "spotify"
     ];
 
     onActivation = {
