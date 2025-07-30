@@ -12,6 +12,12 @@
   homebrew = {
     enable = true;
 
+    brews = [
+      "vips"
+      "libyaml"
+      "openssl"
+    ];
+
     casks = [
       "arc"
       "raycast"
@@ -24,6 +30,8 @@
       "ghostty"
       "discord"
       "spotify"
+      "docker-desktop"
+      "tableplus"
     ];
 
     onActivation = {
