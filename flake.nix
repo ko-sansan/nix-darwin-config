@@ -25,7 +25,7 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.${username} = import ./home/common.nix;
+            home-manager.users.${username} = import ./home/home.nix;
           }
         ];
       };
