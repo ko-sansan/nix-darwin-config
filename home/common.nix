@@ -17,6 +17,7 @@ let
     gh
     lazygit
     lazydocker
+    direnv
   ];
 
   goPackages = with pkgs; [
@@ -95,6 +96,11 @@ in
       sync_frequency = "5m";
       keymap_mode = "vim-insert";
     };
+  };
+
+  programs.direnv = {
+    enable = true;
+    nix-direnv.enable = true;
   };
 
   home.sessionVariables = {
