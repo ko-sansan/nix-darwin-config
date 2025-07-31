@@ -32,6 +32,7 @@
       "spotify"
       "docker-desktop"
       "tableplus"
+      "session-manager-plugin"
     ];
 
     onActivation = {
