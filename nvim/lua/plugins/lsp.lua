@@ -17,12 +17,15 @@ return {
 				},
 
 				-- TypeScript / JavaScript
-				tsserver = {},
+				vtsls = {},
 
 				-- Ruby
 				ruby_lsp = {
 					mason = false,
 				},
+
+				-- JSON
+				jsonls = {},
 			},
 		},
 	},
