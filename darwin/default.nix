@@ -31,8 +31,10 @@
       "discord"
       "spotify"
       "docker-desktop"
-      "tableplus"
       "session-manager-plugin"
+      "tableplus"
+      "maccy"
+      "font-google-sans-code"
     ];
 
     onActivation = {
