@@ -24,6 +24,9 @@
       "ghostty"
       "discord"
       "spotify"
+      "tableplus"
+      "maccy"
+      "font-google-sans-code"
     ];
 
     onActivation = {
