@@ -26,6 +26,9 @@ return {
 
 				-- JSON
 				jsonls = {},
+
+				-- typo
+				typos_lsp = {},
 			},
 		},
 	},

@@ -13,7 +13,7 @@ return {
 			local neotest = require("neotest")
 
 			neotest.setup({
-				adpaters = {
+				adapters = {
 					require("neotest-rspec"),
 					require("neotest-jest"),
 					require("neotest-go"),
