@@ -35,6 +35,7 @@
       "tableplus"
       "maccy"
       "font-google-sans-code"
+      "aws-vpn-client"
     ];
 
     onActivation = {
