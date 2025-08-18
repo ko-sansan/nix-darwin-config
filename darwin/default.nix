@@ -19,7 +19,6 @@
     ];
 
     casks = [
-      "arc"
       "raycast"
       "rectangle"
       "chatgpt"
@@ -36,6 +35,7 @@
       "maccy"
       "font-google-sans-code"
       "aws-vpn-client"
+      "brave-browser"
     ];
 
     onActivation = {
