@@ -36,6 +36,8 @@
       "maccy"
       "font-google-sans-code"
       "aws-vpn-client"
+      "brave-browser"
+      "notion"
     ];
 
     onActivation = {
