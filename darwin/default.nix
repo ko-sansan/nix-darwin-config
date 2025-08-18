@@ -19,7 +19,6 @@
     ];
 
     casks = [
-      "arc"
       "raycast"
       "rectangle"
       "chatgpt"
