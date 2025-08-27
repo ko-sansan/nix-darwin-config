@@ -16,6 +16,7 @@
       "vips"
       "libyaml"
       "openssl"
+      "gemini-cli"
     ];
 
     casks = [
@@ -37,6 +38,7 @@
       "aws-vpn-client"
       "brave-browser"
       "notion"
+      "visual-studio-code"
     ];
 
     onActivation = {
