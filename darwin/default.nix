@@ -39,6 +39,7 @@
       "brave-browser"
       "notion"
       "visual-studio-code"
+      "zed"
     ];
 
     onActivation = {
