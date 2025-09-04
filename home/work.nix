@@ -6,5 +6,6 @@
     devbox
     dotenvx
     zstd
+    act
   ];
 }
