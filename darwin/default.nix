@@ -44,6 +44,7 @@
       "jetbrains-toolbox"
       "dotnet-sdk@8"
       "powershell"
+      "microsoft-azure-storage-explorer"
     ];
 
     onActivation = {
