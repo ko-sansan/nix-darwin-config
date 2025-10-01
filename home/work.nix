@@ -7,5 +7,6 @@
     dotenvx
     zstd
     act
+    azure-cli
   ];
 }

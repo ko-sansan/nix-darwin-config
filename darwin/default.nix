@@ -42,6 +42,8 @@
       "zed"
       "gather"
       "jetbrains-toolbox"
+      "dotnet-sdk@8"
+      "powershell"
     ];
 
     onActivation = {
