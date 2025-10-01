@@ -40,6 +40,8 @@
       "notion"
       "visual-studio-code"
       "zed"
+      "gather"
+      "jetbrains-toolbox"
     ];
 
     onActivation = {
